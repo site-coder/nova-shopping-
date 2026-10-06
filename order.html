@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>إتمام الطلب الفاخر | Nova Shopping</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="order-page-body">
+
+    <!-- شريط التنقل العلوي الفاخر (Header) -->
+    <header class="main-header">
+        <div class="order-header-left">
+            <a href="index.html" class="back-btn" aria-label="العودة للرئيسية">
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <span class="order-header-title">إتمام الطلب</span>
+        </div>
+        <div class="logo-wrapper">
+            <img src="https://i.ibb.co/vvgRWxMg/439121782-1789660707047812.jpg" alt="Nova Shopping" class="logo-img">
+        </div>
+    </header>
+
+    <!-- الحاوية الرئيسية المخصصة للهاتف المحمول -->
+    <main class="mobile-layout-container order-main">
+        
+        <!-- قسم تتبع خطوات الشراء والدفع -->
+        <div class="checkout-steps-bar">
+            <div class="step-item">
+                <div class="step-circle active">1</div>
+                <span class="step-label active">المنتج المطلوب</span>
+            </div>
+            <div class="step-line active"></div>
+            <div class="step-item">
+                <div class="step-circle active">2</div>
+                <span class="step-label active">الشحن والدفع</span>
+            </div>
+            <div class="step-line"></div>
+            <div class="step-item dimmed">
+                <div class="step-circle">3</div>
+                <span class="step-label">تأكيد الطلب</span>
+            </div>
+        </div>
+
+        <!-- أولاً: ملخص المنتج المطلوب -->
+        <section class="checkout-card">
+            <div class="checkout-card-header">
+                <h3><i class="fa-solid fa-basket-shopping"></i> ملخص المنتجات المحددة</h3>
+                <span id="items-count-badge" class="items-count-badge">0 منتجات</span>
+            </div>
+            <div id="checkout-products-list" class="checkout-products-list">
+                <!-- يتم تعبئة المنتج المطلوب ديناميكياً -->
+            </div>
+        </section>
+
+        <!-- ثانياً: نموذج بيانات الشحن والعميل -->
+        <section class="checkout-card">
+            <h3 class="checkout-card-title"><i class="fa-solid fa-address-card"></i> بيانات التوصيل والشحن</h3>
+
+            <form id="luxury-checkout-form" class="checkout-form" onsubmit="return false;">
+                
+                <!-- الاسم واللقب -->
+                <div class="form-row-2">
+                    <div class="form-field">
+                        <label for="first-name">الاسم الأول <span class="required-star">*</span></label>
+                        <input type="text" id="first-name" required placeholder="مثال: أحمد">
+                    </div>
+                    <div class="form-field">
+                        <label for="last-name">اللقب <span class="required-star">*</span></label>
+                        <input type="text" id="last-name" required placeholder="مثال: بن علي">
+                    </div>
+                </div>
+
+                <!-- رقم الهاتف -->
+                <div class="form-field">
+                    <label for="customer-phone">رقم الهاتف <span class="required-star">*</span></label>
+                    <div class="input-with-icon">
+                        <input type="tel" id="customer-phone" required placeholder="مثال: 0557987950" dir="ltr" class="text-right">
+                        <span class="input-icon-right"><i class="fa-solid fa-phone"></i></span>
+                    </div>
+                    <p class="field-hint">يرجى إدخال رقم هاتف جزائري صحيح لضمان تأكيد الشحن.</p>
+                </div>
+
+                <!-- اختيار الولاية -->
+                <div class="form-field">
+                    <label for="wilaya-select">الولاية <span class="required-star">*</span></label>
+                    <div class="input-with-icon">
+                        <select id="wilaya-select" required>
+                            <option value="" disabled selected>اختر ولايتك (58 ولاية)...</option>
+                        </select>
+                        <span class="input-icon-left"><i class="fa-solid fa-chevron-down"></i></span>
+                    </div>
+                </div>
+
+                <!-- خيارات مكان الشحن -->
+                <div class="form-field mt-1">
+                    <span class="field-label-standalone">مكان استلام الطلب <span class="required-star">*</span></span>
+                    <div class="form-row-2">
+                        <label class="delivery-type-option">
+                            <input type="radio" name="delivery-type" value="office" checked class="hidden-radio peer">
+                            <div class="delivery-option-box">
+                                <i class="fa-solid fa-building-flag"></i>
+                                <span class="delivery-option-title">توصيل للمكتب</span>
+                                <span id="office-price-preview" class="delivery-option-price">سيتم حسابه</span>
+                            </div>
+                        </label>
+                        <label class="delivery-type-option">
+                            <input type="radio" name="delivery-type" value="home" class="hidden-radio peer">
+                            <div class="delivery-option-box">
+                                <i class="fa-solid fa-house-laptop"></i>
+                                <span class="delivery-option-title">توصيل للمنزل</span>
+                                <span id="home-price-preview" class="delivery-option-price">سيتم حسابه</span>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- شروط الشحن المنزلي -->
+                <div id="home-delivery-fields" class="home-delivery-fields disabled-block">
+                    <div class="form-field">
+                        <label for="municipality">البلدية <span class="required-star">*</span></label>
+                        <input type="text" id="municipality" placeholder="اسم البلدية الخاص بك" disabled>
+                    </div>
+                    <div class="form-field">
+                        <label for="address-details">العنوان بالتفصيل <span class="required-star">*</span></label>
+                        <textarea id="address-details" rows="2" placeholder="رقم الشارع، اسم الحي، تفاصيل إضافية لمندوب التوصيل..." disabled></textarea>
+                    </div>
+                </div>
+
+            </form>
+        </section>
+
+        <!-- ثالثاً: الفاتورة والملخص المالي النهائي -->
+        <section class="checkout-card">
+            <h3 class="checkout-card-title"><i class="fa-solid fa-file-invoice-dollar"></i> الفاتورة النهائية والملخص</h3>
+
+            <div class="invoice-summary">
+                <div class="invoice-row">
+                    <span class="invoice-label">إجمالي المنتجات (<span id="summary-items-count">0</span>):</span>
+                    <span id="summary-subtotal" class="invoice-value">0.00 د.ج</span>
+                </div>
+                <div class="invoice-row">
+                    <span class="invoice-label">تكلفة التوصيل والشحن:</span>
+                    <span id="summary-delivery-cost" class="invoice-value gold">0.00 د.ج</span>
+                </div>
+                <div class="invoice-divider"></div>
+                <div class="invoice-row invoice-total-row">
+                    <span class="invoice-total-label">المبلغ النهائي المستحق عند الاستلام:</span>
+                    <div class="invoice-total-wrapper">
+                        <span id="summary-total" class="invoice-total-value">0.00 د.ج</span>
+                        <span class="invoice-total-note">الدفع نقدًا عند الاستلام (COD)</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- رابعاً: زر الدفع وتأكيد الطلب -->
+        <section class="submit-order-section">
+            <button id="submit-order-btn" type="button" class="submit-order-btn">
+                <i class="fa-solid fa-circle-check"></i>
+                <span>تأكيد طلب الشراء الآن</span>
+            </button>
+            <p class="submit-order-note">
+                <i class="fa-solid fa-lock"></i>
+                سيتم مراجعة ومعالجة كافة بيانات العميل بأمان وسرية تامة.
+            </p>
+        </section>
+
+    </main>
+
+    <!-- الفوتر -->
+    <footer class="order-footer">
+        <div class="footer-logo">Nova Shopping</div>
+        <p>&copy; Nova Shopping &mdash; جميع الحقوق محفوظة.</p>
+    </footer>
+
+    <script src="app.js"></script>
+    <script src="web3forms.js"></script>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const deliveryTypeRadios = document.querySelectorAll('input[name="delivery-type"]');
+            const homeDeliveryFields = document.getElementById('home-delivery-fields');
+            const municipalityInput = document.getElementById('municipality');
+            const addressTextarea = document.getElementById('address-details');
+
+            const handleDeliveryTypeChange = () => {
+                const selectedValue = document.querySelector('input[name="delivery-type"]:checked').value;
+                
+                document.querySelectorAll('.delivery-type-option').forEach(label => {
+                    const input = label.querySelector('input');
+                    label.classList.toggle('selected', input.checked);
+                });
+
+                if (selectedValue === 'home') {
+                    homeDeliveryFields.classList.remove('disabled-block');
+                    municipalityInput.disabled = false;
+                    addressTextarea.disabled = false;
+                    municipalityInput.required = true;
+                    addressTextarea.required = true;
+                } else {
+                    homeDeliveryFields.classList.add('disabled-block');
+                    municipalityInput.disabled = true;
+                    addressTextarea.disabled = true;
+                    municipalityInput.required = false;
+                    addressTextarea.required = false;
+                    municipalityInput.value = '';
+                    addressTextarea.value = '';
+                }
+
+                if (window.ProductRepository && typeof window.ProductRepository.recalculateCheckoutBill === 'function') {
+                    window.ProductRepository.recalculateCheckoutBill();
+                }
+            };
+
+            deliveryTypeRadios.forEach(radio => {
+                radio.addEventListener('change', handleDeliveryTypeChange);
+            });
+
+            handleDeliveryTypeChange();
+        });
+    </script>
+</body>
+</html>
