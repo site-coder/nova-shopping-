@@ -639,5 +639,78 @@
       "https://i.ibb.co/qz7bWJY/IMG-20261020-093725-956.jpg"
     ],
     "available": true
+  },
+  {
+    "id": "P047",
+    "category": "مطبخ ومنزل",
+    "name": "Chauffage 12kw marque Zass turbo noir",
+    "price": 28900,
+    "description": "Chauffage 12kw marque Zass turbo noir\n\n✅ Garantie 24 mois\n✅ Capacité 12 Kw\n✅ Couleur noir\n✅ Design moderne\n✅ Avec détecteur de gaz gratuit offert\n✅ Hauteur 67 cm largeur 72 cm profondeur 32cm",
+    "images": [
+      "https://i.ibb.co/C5hvxp4m/IMG-20261020-151400-223.jpg",
+      "https://i.ibb.co/mrWV0tWj/IMG-20261020-152806-780.jpg",
+      "https://i.ibb.co/BVmGdmmf/IMG-20261020-152806-671.jpg"
+    ],
+    "available": true
+  },
+  {
+    "id": "P048",
+    "category": "مطبخ ومنزل",
+    "name": "Chauffage Volcano Marque Cristor 10Kw",
+    "price": 25500,
+    "description": "Chauffage Volcano Marque Cristor 10Kw\n✅ Garantie 24 mois\n✅ Couleur noir\n✅ Avec détecteur de gaz\n✅ Puissance 10kw\n✅ Marque cristor\n✅ Dimensions :\nH:660mm\nL:290mm\nP:655.5mm",
+    "images": [
+      "https://i.ibb.co/FbgPC6DC/IMG-20261020-152504-181.jpg",
+      "https://i.ibb.co/R4S0Ckz2/IMG-20261020-152504-712.jpg",
+      "https://i.ibb.co/KxLwCLCy/IMG-20261020-152504-759.jpg"
+    ],
+    "available": true
+  },
+  {
+    "id": "P049",
+    "category": "مطبخ ومنزل",
+    "name": "Chauffage géant 12kw/h",
+    "price": 31500,
+    "description": "Chauffage géant 12kw/h GN-145A-NG\nالغاز G20 غاز طبيعي\nضغط الغاز 20ملي بار\nالقدرة الحرارية 12 كيلواط\nالفئة 11B\nرتبة الجهاز من حيث المردودية:1\nإستهلاك الغاز : 1.06متر مكعب في الساعة",
+    "images": [
+      "https://i.ibb.co/tMR4vDjw/IMG-20261020-151842-253.jpg",
+      "https://i.ibb.co/CRPrj1v/IMG-20261020-151842-852.jpg"
+    ],
+    "available": true
+  },
+  {
+    "id": "P050",
+    "category": "مطبخ ومنزل",
+    "name": "chauffage à gaz naturel Géant",
+    "price": 26500,
+    "description": "chauffage à gaz naturel Géant\nمع منبه التسرب الغاز مجاااني\nGarentie 24 Mois ✓\nCapacité : 11Kw/h ✓\nType de Gaz :  Gaz naturel G20 ✓\nConsommation de gaz : 1.05m/h ✓\nCompression : 18-21M-bar ✓",
+    "images": [
+      "https://i.ibb.co/M5hFxWVc/IMG-20261020-151641-551.jpg",
+      "https://i.ibb.co/qYqRhGtH/IMG-20261020-151641-815.jpg"
+    ],
+    "available": true
+  },
+  {
+    "id": "P051",
+    "category": "مطبخ ومنزل",
+    "name": "Chauffage géant 14kw/h",
+    "price": 42500,
+    "description": "Chauffage géant 14kw/h GN-200B-NG\nنوع الغاز G20 غاز طبيعي\nضغط الغاز 20ملي بار\nالقدرة الحرارية 14كيلواط\nالفئة 11B\nرتبة الجهاز من حيث المردودية:1\nإستهلاك الغاز : 1.33 متر مكعب في الساعة",
+    "images": [
+      "https://i.ibb.co/mV1fMbhL/IMG-20261020-151533-857.jpg",
+      "https://i.ibb.co/Q7MVXvcS/IMG-20261020-151533-325.jpg"
+    ],
+    "available": true
+  },
+  {
+    "id": "P052",
+    "category": "مطبخ ومنزل",
+    "name": "Chauffage 12kw marque Zass turbo noir",
+    "price": 28900,
+    "description": "Chauffage 12kw marque Zass turbo noir\n\n✅ Garantie 24 mois\n✅ Capacité 12 Kw\n✅ Couleur noir\n✅ Design moderne\n✅ Avec détecteur de gaz gratuit offert\n✅ Hauteur 67 cm largeur 72 cm profondeur 32cm",
+    "images": [
+      "https://i.ibb.co/C5hvxp4m/IMG-20261020-151400-223.jpg"
+    ],
+    "available": true
   }
 ]
