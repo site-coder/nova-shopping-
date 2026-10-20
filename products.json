@@ -122,8 +122,8 @@
     "id": "P009",
     "category": "مطبخ ومنزل",
     "name": "PÉTRIN CRISTOR 10L",
-    "price": 25000,
-    "description": "😍🔥 PÉTRIN CRISTOR 10L – قوة وأداء في كل عجينة! 🔥😍\n✅ سعة كبيرة 10 لتر\n✅ قوة 2000 واط ⚡\n✅ مناسب للعائلات وللاستعمال المكثف\n✅ أداء قوي في عجن مختلف أنواع العجين\n✅ جودة CRISTOR المعروفة 💪\n✅ ضمان 12 شهر 🛡️\n🔄 Double Crochet لخلط وعجن متجانس\n⚙️ ترس معدني متين\n✨ قوي ومناسب للعجائن الثقيلة وتحضير كميات كبيرة.\n✅25000da",
+    "price": 25900,
+    "description": "😍🔥 PÉTRIN CRISTOR 10L – قوة وأداء في كل عجينة! 🔥😍\n✅ سعة كبيرة 10 لتر\n✅ قوة 2000 واط ⚡\n✅ مناسب للعائلات وللاستعمال المكثف\n✅ أداء قوي في عجن مختلف أنواع العجين\n✅ جودة CRISTOR المعروفة 💪\n✅ ضمان 12 شهر 🛡️\n🔄 Double Crochet لخلط وعجن متجانس\n⚙️ ترس معدني متين\n✨ قوي ومناسب للعجائن الثقيلة وتحضير كميات كبيرة.\n✅25900da",
     "images": [
       "https://i.ibb.co/wZWT9089/IMG-20260917-151142-727.jpg",
       "https://i.ibb.co/rGjC9zgk/IMG-20260917-151142-944.jpg",
@@ -137,8 +137,8 @@
     "id": "P010",
     "category": "مطبخ ومنزل",
     "name": "✔️ Pétrin Condor Double Crochet 8L – 1600W",
-    "price": 24000,
-    "description": "✔️ Pétrin Condor Double Crochet 8L – 1600W\n✅سعة كبيرة 8 لتر\n✅ قوة 1600 واط ⚡\n💪 عجن سريع وقوي لجميع أنواع العجين\n🏠 مناسب للاستعمال اليومي\n🔄 Double Crochet لخلط وعجن متجانس\n⚙️ ترس معدني متين\nمتوفر في الاسود والرمادي\n✅ ضمان 12 شهر 🛡️\n✅24000da",
+    "price": 25000,
+    "description": "✔️ Pétrin Condor Double Crochet 8L – 1600W\n✅سعة كبيرة 8 لتر\n✅ قوة 1600 واط ⚡\n💪 عجن سريع وقوي لجميع أنواع العجين\n🏠 مناسب للاستعمال اليومي\n🔄 Double Crochet لخلط وعجن متجانس\n⚙️ ترس معدني متين\nمتوفر في الاسود والرمادي\n✅ ضمان 12 شهر 🛡️\n✅25000da",
     "images": [
       "https://i.ibb.co/XfMWRcrQ/IMG-20260917-151614-933.jpg",
       "https://i.ibb.co/chZccD7R/IMG-20260917-151615-131.jpg",
@@ -469,8 +469,8 @@
     "id": "P034",
     "category": "مطبخ ومنزل",
     "name": "مدفأة من علامة اطلس الغنية عن التعريف",
-    "price": 25000,
-    "description": "مدفأة من علامة اطلس الغنية عن التعريف\n✅ ضمان 24 شهر\n✅ قوة 10KW\n✅ يمشي بغاز المدينة\n\n✅ السعر : 25000DA ✅",
+    "price": 25500,
+    "description": "مدفأة من علامة اطلس الغنية عن التعريف\n✅ ضمان 24 شهر\n✅ قوة 10KW\n✅ يمشي بغاز المدينة\n\n✅ السعر : 25500DA ✅",
     "images": [
       "https://i.ibb.co/yc8p5ynL/IMG-20260929-132038-181.jpg",
       "https://i.ibb.co/CKc5mCQb/IMG-20260929-132038-801.jpg",
@@ -597,6 +597,46 @@
       "https://i.ibb.co/DgvqFGvS/IMG-20261006-104212-725.jpg",
       "https://i.ibb.co/8LHz3wm5/IMG-20261006-104212-245.jpg",
       "https://i.ibb.co/fzqGB66Q/IMG-20261006-104212-131.jpg"
+    ],
+    "available": true
+  },
+  {
+    "id": "P044",
+    "category": "مطبخ ومنزل",
+    "name": "Chauffe Bain WARM 6L",
+    "price": 16000,
+    "description": "🔥 Chauffe Bain WARM 6L 🔥\n\n🚿 سعة 6 لتر\n✅ اقتصادي في استهلاك الغاز\n✅ يعمل بغاز المدينة\n✅ يمكن استعماله مع غاز البوتان بعد تغيير البيك/الجيكلور المناسب\n💰 السعر: 16,000 دج فقط 🔥",
+    "images": [
+      "https://i.ibb.co/6cYrxfdx/IMG-20261020-093747-283.jpg",
+      "https://i.ibb.co/sphV7wFX/IMG-20261020-093747-548.jpg",
+      "https://i.ibb.co/TxzcDQJf/IMG-20261020-093747-670.jpg"
+    ],
+    "available": true
+  },
+  {
+    "id": "P045",
+    "category": "مطبخ ومنزل",
+    "name": "Chauffe Bain Géant 6L",
+    "price": 17000,
+    "description": "🔥 تم التخفيض في السعر 🔥\n\n🚿 Chauffe Bain Géant 6L 🚿\nجودة مليحة وسعر مخفض 👌\n\nالمواصفات ⬇️⬇️\n\n✅ العلامة: Géant\n✅ السعة: 6 لتر\n✅ يعمل بغاز المدينة\n✅ 2 في 1: يتوفر على بوشونات/بيكات غاز البوتان\n✅ ضمان 12 شهر\n💥 السعر الجديد: 17,000 دج فقط 💥",
+    "images": [
+      "https://i.ibb.co/nsJYqdBZ/IMG-20261020-093737-928.jpg",
+      "https://i.ibb.co/gFv0hsny/IMG-20261020-093738-612.jpg",
+      "https://i.ibb.co/YzGhJ3q/IMG-20261020-093738-274.jpg"
+    ],
+    "available": true
+  },
+  {
+    "id": "P046",
+    "category": "مطبخ ومنزل",
+    "name": "مقلاة هوائية متعددت الوظائف بسعة 8 لتر",
+    "price": 15000,
+    "description": "🔥Airfryer Inox 8L 1800W🔥\n👉 Numérique Avec Fenêtre Visible Multismart MS-AF1108  \n✅ مقلاة هوائية متعددت الوظائف بسعة 8 لتر\n✅ وقوة 1800 واط .. اينوكس من الداخل ايضا\n✅السعر 15000da",
+    "images": [
+      "https://i.ibb.co/RG3CyJR8/IMG-20261020-093725-853.jpg",
+      "https://i.ibb.co/gM5wRkQP/IMG-20261020-093725-423.jpg",
+      "https://i.ibb.co/73sbK1Z/IMG-20261020-093725-964.jpg",
+      "https://i.ibb.co/qz7bWJY/IMG-20261020-093725-956.jpg"
     ],
     "available": true
   }
